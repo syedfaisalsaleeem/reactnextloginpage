@@ -1,23 +1,21 @@
 import Head from 'next/head'
 import Login from "./Login";
-import {ThemeProvider} from '@material-ui/core';
-import {theme} from './theme';
 import React from 'react';
-import TextField from '@material-ui/core/TextField';
+
 class Home extends React.Component {
 render(){  
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>DashBoard</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
       
         
+        <p>Password Validated</p>
         
-        <Login/>
         
         
 

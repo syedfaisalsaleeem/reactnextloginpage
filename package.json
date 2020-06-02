@@ -1,15 +1,27 @@
 {
-  "name": "nextloginpage",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
+  "name": "reactnext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "dev": "next",
+  "build": "next build",
+  "start": "next start -p $PORT",
+  "heroku-postbuild": "npm run build",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "next": "9.4.4",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-regular-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "highcharts": "^8.1.0",
+    "highcharts-react-official": "^3.0.0",
+    "next": "^9.4.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "semantic-ui-react": "^0.88.2"
   }
 }
