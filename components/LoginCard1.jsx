@@ -3,10 +3,6 @@ import Router  from 'next/router'
 
 import styles from "./LoginCard.module.css";
 
-import { makeStyles } from '@material-ui/core/styles';
-
-
-import clsx from 'clsx';
 import IconButton from '@material-ui/core/IconButton';
 
 import OutlinedInput from '@material-ui/core/OutlinedInput';
