@@ -1,17 +1,14 @@
-import React, { useEffect,useState } from 'react';
+import React from 'react';
 import Router  from 'next/router'
-import Link from 'next/link'
+
 import styles from "./LoginCard.module.css";
-import {Button} from '@material-ui/core';
-import {Typography,Container} from '@material-ui/core';
+
 import { makeStyles } from '@material-ui/core/styles';
-import { withStyles } from '@material-ui/core/styles';
-import { green } from '@material-ui/core/colors';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
+
+
 import clsx from 'clsx';
 import IconButton from '@material-ui/core/IconButton';
-import Input from '@material-ui/core/Input';
+
 import OutlinedInput from '@material-ui/core/OutlinedInput';
 import InputLabel from '@material-ui/core/InputLabel';
 import InputAdornment from '@material-ui/core/InputAdornment';
@@ -19,7 +16,7 @@ import FormControl from '@material-ui/core/FormControl';
 import TextField from '@material-ui/core/TextField';
 import Visibility from '@material-ui/icons/Visibility';
 import VisibilityOff from '@material-ui/icons/VisibilityOff';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
+
 import { Checkbox } from 'semantic-ui-react';
 
 
