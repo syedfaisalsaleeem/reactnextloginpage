@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Login from "./Login";
-import {ThemeProvider} from '@material-ui/core';
-import {theme} from './theme';
+
+
 import React from 'react';
-import TextField from '@material-ui/core/TextField';
+
 class Home extends React.Component {
 render(){  
   return (
